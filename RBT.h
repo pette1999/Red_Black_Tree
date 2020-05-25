@@ -2,6 +2,12 @@
 #include "TreeNode.h"
 using namespace std;
 
+//reference
+//https://algorithmtutor.com/Data-Structures/Tree/Red-Black-Trees/
+//https://www.coders-hub.com/2015/07/red-black-tree-rb-tree-using-c.html
+//https://www.youtube.com/watch?v=gcULXE7ViZw&t=607s
+
+
 template <class T>
 class RBT
 {
@@ -517,6 +523,7 @@ void RBT<T>::deleteNode(T value)
     }
 }
 
+//100% copied from https://algorithmtutor.com/Data-Structures/Tree/Red-Black-Trees/
 template <class T>
 void RBT<T>::print(TreeNode<T> *node, string indent, bool last)
 {
